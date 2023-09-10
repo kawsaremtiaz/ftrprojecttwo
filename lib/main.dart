@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(
-      const MyApp()
-  );
+  runApp(const MyApp());
 }
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -16,8 +14,6 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: true,
     );
   }
-
-
 }
 
 class HomeScreen extends StatelessWidget {
@@ -51,7 +47,6 @@ class HomeScreen extends StatelessWidget {
                       style: TextStyle(
                         color: Colors.deepOrange,
                         fontSize: 20,
-
                       ),
                       children: [
                         TextSpan(
@@ -72,17 +67,14 @@ class HomeScreen extends StatelessWidget {
                             text: "Your phone name",
                             style: TextStyle(
                               color: Colors.orange,
-
                             )
                         )
                       ]
                   )),
             )
-
           ],
         )
     );
   }
-
 }
 
